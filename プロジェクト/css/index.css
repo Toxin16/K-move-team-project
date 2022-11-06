@@ -1,0 +1,102 @@
+* {
+    /* background-color: rgb(207, 208, 200); */
+    list-style: none;
+    /* font-family: 'Gowun Dodum', sans-serif; */
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    text-decoration: none;
+    
+}
+
+header {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 4fr 200fr;
+    align-items: center;
+}
+
+h3 {
+    /* 로고 아래의 '부산의 맛있는 가게' 글자 */
+    font-family: 'Gowun Dodum', sans-serif;
+    display: inline-block;
+    align-items: center;
+    color: rgb(32, 31, 31);
+    margin: 0px 35px;
+    padding: 0;
+    font-size: 15px;
+}
+
+.title { 
+    /* logo와 h3포함 */
+    margin: 0px 10px 10px 0px
+}
+
+
+nav {
+    margin: 0px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.Btn{
+    /* 우측 マップ, カテゴリー버튼 */
+    width: 160px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: rgb(54, 76, 65); 
+    color: rgb(231, 231, 225);  
+}
+
+.nav1{
+    margin-right: 10px;
+}
+
+ul {
+    list-style: none;
+    margin: 10px 10px;
+    padding: 10;
+    display: flex;
+}
+
+
+header {
+    background: rgb(207, 208, 200);
+    padding: 20px;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+body {
+    background-color: rgb(207, 208, 200);
+    
+}
+
+table {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btn {
+    padding: 5px 15px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(121, 143, 161);
+    border: 1px solid rgb(121, 143, 161);
+    border-radius: 4px;
+    width: 180px;
+}
+
+.Copyright {
+    background-color: #219181;
+    position: absolute;
+    width: 99%;
+    font-size: 12px;
+    color: black;
+}
