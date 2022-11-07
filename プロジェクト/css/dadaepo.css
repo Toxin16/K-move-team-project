@@ -1,3 +1,4 @@
+/* 다대포 */
 * {
     /* background-color: rgb(207, 208, 200); */
     list-style: none;
@@ -66,6 +67,172 @@ body {
 h2 {
     font-size: 24px; 
 }
+
+.abc {
+    width: 700px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #ECECEC;
+    margin-bottom: 20px;
+}
+
+.Mimiru-image {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.Mimiru-txt {
+    margin:auto;
+    padding-left: 15px;
+    font-size: 14px;
+    color: black;
+    background-color:  rgb(207, 208, 200);
+    border: 1px solid  rgb(207, 208, 200);
+    border-radius: 15px;
+    width: 480px;
+}
+
+.Hops-image {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.Hops-txt {
+    margin:auto;
+    padding-left: 15px;
+    font-size: 14px;
+    color: black;
+    background-color:  rgb(207, 208, 200);
+    border: 1px solid  rgb(207, 208, 200);
+    border-radius: 15px;
+    width: 480px;
+}
+
+.Suo-image {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+
+.Suo-txt {
+    margin:auto;
+    padding-left: 15px;
+    font-size: 14px;
+    color: black;
+    background-color:  rgb(207, 208, 200);
+    border: 1px solid  rgb(207, 208, 200);
+    border-radius: 15px;
+    width: 480px;
+}
+
+.Neungi-image {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+
+.Neungi-txt {
+    margin:auto;
+    padding-left: 15px;
+    font-size: 14px;
+    color: black;
+    background-color:  rgb(207, 208, 200);
+    border: 1px solid  rgb(207, 208, 200);
+    border-radius: 15px;
+    width: 480px;
+}
+
+.Nondoorung-image {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+
+.Nondoorung-txt {
+    margin:auto;
+    padding-left: 15px;
+    font-size: 14px;
+    color: black;
+    background-color:  rgb(207, 208, 200);
+    border: 1px solid  rgb(207, 208, 200);
+    border-radius: 15px;
+    width: 480px;
+}
+
+.Budnamu-image {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+
+.Budnamu-txt {
+    margin:auto;
+    padding-left: 15px;
+    font-size: 14px;
+    color: black;
+    background-color:  rgb(207, 208, 200);
+    border: 1px solid  rgb(207, 208, 200);
+    border-radius: 15px;
+    width: 480px;
+}
+
+.Od-image {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+
+.Od-txt {
+    margin:auto;
+    margin-bottom: 70px;
+    padding-left: 15px;
+    font-size: 14px;
+    color: black;
+    background-color:  rgb(207, 208, 200);
+    border: 1px solid  rgb(207, 208, 200);
+    border-radius: 15px;
+    width: 480px;
+}
+
+.Oppa-image {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+
+.Oppa-txt {
+    margin:auto;
+    margin-bottom: 70px;
+    padding-left: 15px;
+    font-size: 14px;
+    color: black;
+    background-color:  rgb(207, 208, 200);
+    border: 1px solid  rgb(207, 208, 200);
+    border-radius: 15px;
+    width: 480px;
+}
+
+.Banga-image {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+
+.Banga-txt {
+    margin:auto;
+    margin-bottom: 70px;
+    padding-left: 15px;
+    font-size: 14px;
+    color: black;
+    background-color:  rgb(207, 208, 200);
+    border: 1px solid  rgb(207, 208, 200);
+    border-radius: 15px;
+    width: 480px;
+}
+
+
 
 .Copyright {
     background-color: #219181;

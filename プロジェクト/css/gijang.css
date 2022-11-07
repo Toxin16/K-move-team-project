@@ -1,3 +1,4 @@
+/* 기장 */
 * {
     /* background-color: rgb(207, 208, 200); */
     list-style: none;
@@ -65,6 +66,167 @@ body {
 
 h2 {
     font-size: 24px; 
+}
+
+.abc {
+    width: 700px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #ECECEC;
+    margin-bottom: 20px;
+}
+
+.Myeongwan-image {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.Myeongwan-txt {
+    margin:auto;
+    padding-left: 15px;
+    font-size: 14px;
+    color: black;
+    background-color:  rgb(207, 208, 200);
+    border: 1px solid  rgb(207, 208, 200);
+    border-radius: 15px;
+    width: 480px;
+}
+
+.Michung-image {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.Michung-txt {
+    margin:auto;
+    padding-left: 15px;
+    font-size: 14px;
+    color: black;
+    background-color:  rgb(207, 208, 200);
+    border: 1px solid  rgb(207, 208, 200);
+    border-radius: 15px;
+    width: 480px;
+}
+
+.Tambok-image {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.Tambok-txt {
+    margin:auto;
+    padding-left: 15px;
+    font-size: 14px;
+    color: black;
+    background-color:  rgb(207, 208, 200);
+    border: 1px solid  rgb(207, 208, 200);
+    border-radius: 15px;
+    width: 480px;
+}
+
+.Barut-image {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.Barut-txt {
+    margin:auto;
+    padding-left: 15px;
+    font-size: 14px;
+    color: black;
+    background-color:  rgb(207, 208, 200);
+    border: 1px solid  rgb(207, 208, 200);
+    border-radius: 15px;
+    width: 480px;
+}
+
+.Heyden-image {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.Heyden-txt {
+    margin:auto;
+    padding-left: 15px;
+    font-size: 14px;
+    color: black;
+    background-color:  rgb(207, 208, 200);
+    border: 1px solid  rgb(207, 208, 200);
+    border-radius: 15px;
+    width: 480px;
+}
+
+.Pick-image {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.Pick-txt {
+    margin:auto;
+    padding-left: 15px;
+    font-size: 14px;
+    color: black;
+    background-color:  rgb(207, 208, 200);
+    border: 1px solid  rgb(207, 208, 200);
+    border-radius: 15px;
+    width: 480px;
+}
+
+.Waveon-image {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.Waveon-txt {
+    margin:auto;
+    padding-left: 15px;
+    font-size: 14px;
+    color: black;
+    background-color:  rgb(207, 208, 200);
+    border: 1px solid  rgb(207, 208, 200);
+    border-radius: 15px;
+    width: 480px;
+}
+
+.Chil-image {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.Chil-txt {
+    margin:auto;
+    padding-left: 15px;
+    font-size: 14px;
+    color: black;
+    background-color:  rgb(207, 208, 200);
+    border: 1px solid  rgb(207, 208, 200);
+    border-radius: 15px;
+    width: 480px;
+}
+
+.Cafeoshio-image {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.Cafeoshio-txt {
+    margin:auto;
+    padding-left: 15px;
+    font-size: 14px;
+    color: black;
+    background-color:  rgb(207, 208, 200);
+    border: 1px solid  rgb(207, 208, 200);
+    border-radius: 15px;
+    width: 480px;
 }
 
 .Copyright {
