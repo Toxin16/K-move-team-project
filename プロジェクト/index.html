@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>釜山の美味しい店</title> <!--page tab title-->
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/seomyeon.css">
+    <script src="index.js"></script>
     
     <!-- google web font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,6 +23,7 @@
             <nav></nav>
             <nav class="nav1">
             <ul>
+                <li><button class="Btn" onClick="map()">マップ</button></li>
                 <li><button class="Btn">マップ</button></li>
                 　　 <!-- 　　 버튼 사이에 공백 넣었어요. -->
                 <li><button class="Btn">カテゴリー</button></li>
@@ -38,150 +40,168 @@
 
 <hr style="border: solid 1px #878787;">
 
-    <div class = "places-1">
-        <img src="images/main/places.png" width="25px" height="25px">
-        <script>document.write("地域別");</script>
-    </div>
-    
     <table>
         <tr>
             <td>
-            <div class="Seomyeon">
-                <div class="Seomyeon-txt">
-                    <a href="seomyeon.html" alt="">
-                        <h2>西面</h2>
-                    </a>
-                </div>
-                <div class="Seomyeon-image">
-                    <img src="images/main/Seomyeon.jpg" width="210px" height="140px" alt=""/>
-                </div>
-            </div>
+                <a href="gijang.html">
+                    <button class="arr">←Prev</button>
+                </a>
             </td>
 
             <td>
-            <div class="Nampodong">
-                <div class="Nampodong-txt">
-                    <a href="nampo.html" alt="">
-                        <h2>南浦洞</h2>
-                    </a>
-                </div>
-                <div class="Nampodong-image">
-                    <img src="images/main/Nampodong.jpg", height="140px", width="210px", alt=""/>
-                </div>
-            </div>
-            </td>
-
-            <td>
-                <div class="Haeundae">
-                    <div class="Haeundae-txt">
-                        <a href="haeundae.html" alt="">
-                            <h2>海雲台</h2>
-                        </a>
-                    </div>
-                    <div class="Haeundae-image">
-                        <img src="images/main/Haeundae.jpg", height="140px", width="210px", alt=""/>
-                    </div>
-                </div>
-            </td>
-        </tr>
-
-        <tr>
-            <td>
-                <div class="Gwanganri">
-                    <div class="Gwanganri-txt">
-                        <a href="gwanganri.html" alt="">
-                            <h2>広安里</h2>
-                        </a>
-                    </div>
-                    <div class="Gwanganri-image">
-                        <img src="images/main/Gwanganri.jpg", height="140px", width="210px", alt=""/>
-                    </div>
+                <div class="seomyeon-1">
+                    <span class="han1">西面 </span>
+                    <span class="han2">seomyeon</span>
                 </div>
             </td>
 
             <td>
-                <div class="Dadaepo">
-                    <div class="Dadaepo-txt">
-                        <a href="dadaepo.html" alt="">
-                            <h2>多大浦</h2>
-                        </a>
-                    </div>
-                    <div class="Dadaepo-image">
-                        <img src="images/main/Dadaepo.jpg", height="140px", width="210px", alt=""/>
-                    </div>
-                </div>
-            </td>
-
-            <td>
-                <div class="Gijang">
-                    <div class="Gijang-txt">
-                        <a href="gijang.html" alt="">
-                        <h2>機張</h2>
-                        </a>
-                    </div>
-                    <div class="Gijang-image">
-                        <img src="images/main/Gijang.jpg", height="140px", width="210px", alt=""/>
-                    </div>
-                </div>
+                <a href="Nampo.html">
+                    <button class="arr">Next→</button>
+                </a>
             </td>
         </tr>
     </table>
-    <hr align="center" style="border: solid 0.5px #878787; width: 90%;">
 
-    <div class = "places-2">
-        <img src="images/main/places.png" width="25px" height="25px">
-        <script>document.write("オススメの店");</script>
-        </div>
-
-    <table>
+    <table class="abc">
         <tr>
             <td>
-                <div class="Gobok">
-                    <div class="Gobok-image">
-                        <img src="images/main/Gobok.jpg" width="180px" height="180px" alt=""/>
+                <div class="Gobok-1">
+                    <div class="Gobok-1-image">
+                        <img src="images/seomyeon/Gobok.jpg" width="500px" height="500px" alt=""/>
                     </div>
-                    <div class="Gobok-txt">
-                            <a href="https://url.kr/8wrjus" alt="">
-                                <button class="btn">ゴボクしゃぶしゃぶ</button>
-                            </a>
-                    </div>
-                </div>
-            </td>
-
-            <td>
-                <div class="Yakiya">
-                    <div class="Yakiya-image">
-                        <img src="images/main/Yakiya.jpg", height="180px", width="180px", alt=""/>
-                    </div>
-                    <div class="Yakiya-txt">
-                        <a href="https://url.kr/ehl2ng" alt="">
-                            <button class="btn">焼き屋</button>
+                    <div class="Gobok-1-txt">
+                        <h2>ゴボクしゃぶしゃぶ<br></h2>
+                        <a href="https://url.kr/8wrjus" alt=""> 
+                            <p>住所 : 부산광역시 부산진구 부전2동 170-1</p>
                         </a>
                     </div>
                 </div>
             </td>
+        </tr>
 
+        <tr>
             <td>
-                <div class="Nokcafe">
-                    <div class="Nokcafe-image">
-                        <img src="images/main/Nokcafe.jpg", height="180px", width="180px", alt=""/>
+                <div class="Yakiya-1">
+                    <div class="Yakiya-1-image">
+                        <img src="images/seomyeon/Yakiya.jpg" width="500px" height="500px" alt=""/>
                     </div>
-                    <div class="Nokcafe-txt">
+                    <div class="Yakiya-1-txt">
+                        <h2>焼き屋<br></h2>
+                        <a href="https://url.kr/8wrjus" alt="">
+                            <p>住所 : 부산 부산진구 서전로10번길 31-3</p>
+                        </a>
+                    </div>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="Ogongboki">
+                    <div class="Ogongboki-image">
+                        <img src="images/seomyeon/Ogongboki.jpg" width="500px" height="500px" alt=""/>
+                    </div>
+                    <div class="Ogongboki-txt">
+                        <h2>オゴンボギ<br></h2>
+                        <a href="https://url.kr/a7o4lg" alt="">
+                            <p>住所 : 부산 부산진구 서면로 63 1층</p>
+                        </a>
+                    </div>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="FullFull">
+                    <div class="FullFull-image">
+                        <img src="images/seomyeon/FullFull.jpg" width="500px" height="500px" alt=""/>
+                    </div>
+                    <div class="FullFull-txt">
+                        <h2>プルプル<br></h2>
+                        <a href="https://url.kr/w8s4d3" alt="">
+                            <p>住所 : 부산 부산진구 전포대로209번길 22</p>
+                        </a>
+                    </div>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="Moroo">
+                    <div class="Moroo-image">
+                        <img src="images/seomyeon/Moroo.jpg" width="500px" height="500px" alt=""/>
+                    </div>
+                    <div class="Moroo-txt">
+                        <h2>モル食堂<br></h2>
+                        <a href="https://url.kr/95dse8" alt="">
+                            <p>住所 : 부산 부산진구 서전로38번길 37</p>
+                        </a>
+                    </div>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="Zyuchajang">
+                    <div class="Zyuchajang-image">
+                        <img src="images/seomyeon/Zyuchajang.jpg" width="500px" height="500px" alt=""/>
+                    </div>
+                    <div class="Zyuchajang-txt">
+                        <h2>ジュチャジャン・サンコンジャンオ<br></h2>
+                        <a href="https://url.kr/gkv5zb" alt="">
+                            <p>住所 : 부산 부산진구 부전로 177-3</p>
+                        </a>
+                    </div>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="Nokcafe-1">
+                    <div class="Nokcafe-1-image">
+                        <img src="images/seomyeon/Nokcafe.jpg" width="500px" height="500px" alt=""/>
+                    </div>
+                    <div class="Nokcafe-1-txt">
+                        <h2>溶け込み、ノクカフェ<br></h2>
                         <a href="https://url.kr/5edlyu" alt="">
-                            <button class="btn">溶け込み、ノクカフェ</button>
+                            <p>住所 : 부산 부산진구 서전로37번길 18 1층 녹카페</p>
                         </a>
                     </div>
                 </div>
             </td>
+        </tr>
 
+        <tr>
             <td>
-                <div class="Doraboeul">
-                    <div class="Doraboeul-image">
-                        <img src="images/main/Doraboeul.jpg", height="180px", width="180px", alt=""/>
+                <div class="Good">
+                    <div class="Good-image">
+                        <img src="images/seomyeon/Goodgood.jpg" width="500px" height="500px" alt=""/>
                     </div>
-                    <div class="Doraboeul-txt">
-                        <a href="https://url.kr/bkaepz" alt="">
-                            <button class="btn">ドラボウル</button>
+                    <div class="Good-txt">
+                        <h2>グッドグッドウェザー<br></h2>
+                        <a href="https://url.kr/nauxv1" alt="">
+                            <p>住所 : 부산 부산진구 서전로46번길 32 2층</p>
+                        </a>
+                    </div>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="Baekgeumdang">
+                    <div class="Baekgeumdang-image">
+                        <img src="images/seomyeon/Baekgeumdang.jpg" width="500px" height="500px" alt=""/>
+                    </div>
+                    <div class="Baekgeumdang-txt">
+                        <h2>白金堂<br></h2>
+                        <a href="https://url.kr/djeqcm" alt="">
+                            <p>住所 : 부산 부산진구 서전로37번길 20 A마동 2층 백금당</p>
                         </a>
                     </div>
                 </div>
