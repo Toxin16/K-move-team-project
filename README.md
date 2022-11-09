@@ -12,6 +12,3 @@ HomePage : https://toxin16.github.io/K-move_team_project/%E3%83%97%E3%83%AD%E3%8
 #### JS 製作者 : カン·ソンフン(toxin16)
 
 ### 기능설명
-
-#### 프로젝트 계획 이유
->
