@@ -11572,7 +11572,12 @@ header.masthead h1, header.masthead .h1 {
 
 .portfolio-modal .modal-dialog {
   margin: 1rem;
-  max-width: 100vw;
+  max-width: 50vw;
+
+  position:center;
+  
+  left:25%; /*추가 모달 위치*/
+  transform:translate(-50%, -50%);  /**/
 }
 .portfolio-modal .modal-content {
   padding-top: 6rem;
